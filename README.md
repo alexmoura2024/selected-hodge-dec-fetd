@@ -86,8 +86,8 @@ This code is distributed under the BSD 3-Clause License. See the `LICENSE` file 
 
 ## Notes for public release
 
-This is the reproducibility code for a manuscript being prepared for submission to Computer Physics Communications. The DOI of the eventual journal article should be added after acceptance. Archive a versioned release of this repository on Zenodo to obtain a software DOI for use at submission. The archived numerical data are prepared as a separate dataset; the permanent DOI will be added once the dataset is deposited.
+This is the reproducibility code for a manuscript being prepared for submission to *Computer Physics Communications*. The DOI of the eventual journal article should be added after acceptance. The accompanying numerical dataset has been deposited on Zenodo (dataset DOI reported by the depositor: **[10.5281/zenodo.24021616](https://doi.org/10.5281/zenodo.24021616)**). A separate versioned software release can also be archived on Zenodo to obtain a software-specific DOI.
 
 ## Archived data
 
-The original result CSV files and published figure source data are distributed separately in the accompanying research-data deposit. Copy the dataset CSV files into a working directory before running `python scripts/figures_cpc.py`, or invoke each test with its documented `--out-prefix`. Numerical runtimes depend on hardware, compiler/library versions and threading environment.
+The original result CSV files and figure source data are distributed separately in the [Zenodo dataset](https://doi.org/10.5281/zenodo.24021616), which contains 43 CSV files and eight PDF figures. Extract the dataset CSV files into a working directory before running `python scripts/figures_cpc.py`, or invoke each test with its documented `--out-prefix`. Numerical runtimes depend on hardware, compiler/library versions and threading environment.
