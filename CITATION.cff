@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the associated manuscript and this repository."
+title: "Topological Selected-Solve Approximation of Inverse Hodge Operators for Explicit DEC/FETD Maxwell Simulations"
+authors:
+  - family-names: "Moura"
+    given-names: "A. S."
+  - family-names: "Facco"
+    given-names: "W. G."
+date-released: 2026-11-06
+version: "0.1.0"
+license: "BSD-3-Clause"

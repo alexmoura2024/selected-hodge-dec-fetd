@@ -1,0 +1,98 @@
+[
+  {
+    "file": "scripts/figures_cpc.py",
+    "source_uploaded_name": "Figurescpc.py",
+    "sha256": "43f37fff790e9e4cc559490dd5fd5c83d5b98971dd8b1573449b4d4593be874a",
+    "role": "Generates publication-ready figures from processed CSV outputs."
+  },
+  {
+    "file": "scripts/teste01_selected_hodge.py",
+    "source_uploaded_name": "teste01_selected_hodge.py",
+    "sha256": "930a006c6506495dbef86ef15626902ed4c31f5145091d3422e0ac8437212378",
+    "role": "Initial algebraic comparison of dense, diagonal, Hodge-pattern, LU-fill, and selected-solve inverse Hodge approximations."
+  },
+  {
+    "file": "scripts/teste01B_pattern_enrichment.py",
+    "source_uploaded_name": "teste01B_pattern_enrichment.py",
+    "sha256": "06f581f6601b5fd199b46e2615286468d727a50db70264db66516f97178a6c02",
+    "role": "Algebraic study of graph-radius enrichment patterns S_{H^r} for r=1,2,3,... using dense inverse projection for validation."
+  },
+  {
+    "file": "scripts/teste01D_material_contrast.py",
+    "source_uploaded_name": "teste01D_material_contrast.py",
+    "sha256": "3c072c6dccb95266b530f6f0b7810e1938763e307b72fa98ebe1399a34d8f07a",
+    "role": "Algebraic validation of topological selected inverse Hodge patterns under piecewise-constant material contrast."
+  },
+  {
+    "file": "scripts/teste02_leapfrog_selected_hodge.py",
+    "source_uploaded_name": "Teste 02 — Dinâmica leapfrog explícita com inversa seletiva topológica da Hodge.py",
+    "sha256": "617e4dc64f4cc60514c8a532d79c65e709b748faad4d1e037aea3458ba437c5a",
+    "role": "Dynamic leapfrog DEC/FETD validation using dense inverse references on small meshes."
+  },
+  {
+    "file": "scripts/teste02B_time_growth_cavity.py",
+    "source_uploaded_name": "teste02B_time_growth_cavity.py",
+    "sha256": "5451908613dfdb10e20568a331783eebb9d1125ac3e9c9db74a37d07acd6ac40",
+    "role": "Long-time error growth, saturation, and energy-drift diagnostics in PEC cavity simulations."
+  },
+  {
+    "file": "scripts/teste02C_modal_frequency_cavity.py",
+    "source_uploaded_name": "Teste 02C_ Análise modal_frequencial da cavidade PEC 2D.py",
+    "sha256": "9343276529649c8852e129da8f07811027478c9efb35e05b1471cec22a356acc",
+    "role": "Modal/frequency analysis of PEC cavity probe signals for selected inverse Hodge approximations."
+  },
+  {
+    "file": "scripts/teste03A_selected_solve_hodge.py",
+    "source_uploaded_name": "teste03A_selected_solve_hodge.py",
+    "sha256": "7cfb8c9cab4d195e955c946552ba6040ac633b6bd3abe09319e243536f3c1eaa",
+    "role": "Selected-solve construction of G_{H,r} without forming the dense inverse H^{-1}."
+  },
+  {
+    "file": "scripts/teste03B_scaling_selected_solve.py",
+    "source_uploaded_name": "teste03B_scaling_selected_solve.py",
+    "sha256": "270eba8ded98c00a244391463d9ffc91bde2b3d99f55c425d27554cfced5be8f",
+    "role": "Scaling study for selected-solve construction of G_{H,3} on larger meshes."
+  },
+  {
+    "file": "scripts/teste04_large_cavity_selected_solve.py",
+    "source_uploaded_name": "Teste 04 — Dinâmica grande em cavidade PEC usando G_{H,3} por selected-solve.py",
+    "sha256": "02cd8b67ebf756032bdb64ee4ac0d6ebdbade1fadaa1c8587f27acf5f38948bb",
+    "role": "Large-cavity DEC/FETD simulations using G_{H,3}^{sel} without dense inverse storage."
+  },
+  {
+    "file": "scripts/teste05_compare_selected_inverse_vs_lu_step.py",
+    "source_uploaded_name": "teste05_compare_selected_inverse_vs_lu_step.py",
+    "sha256": "a5f4790db88ac0985ef65cb9401d6d2d82cdd3e7bdbc4df9a60d711485d65b2a",
+    "role": "Comparison between explicit G_{H,3}^{sel} update and LU-step reference at every time step."
+  },
+  {
+    "file": "scripts/teste06_cfl_stability_sweep.py",
+    "source_uploaded_name": "Teste 06 — Varredura de CFL e estabilidade temporal de G_{H,3}.py",
+    "sha256": "722bfef7f4257064941018917cf621ac12136d6e339277b07f59872470b22876",
+    "role": "CFL stability sweep comparing G_diag, G_{H,3}^{sel}, and LU-step reference."
+  },
+  {
+    "file": "README.md",
+    "source_uploaded_name": "README.md",
+    "sha256": "e75f9180b696a090d0a2c452bab6ba5b45485ac15a4e7c901f9c6c2758c45871",
+    "role": "Repository overview and reproduction instructions."
+  },
+  {
+    "file": "requirements.txt",
+    "source_uploaded_name": "requirements.txt",
+    "sha256": "2d1c2e403d0bc73dde8bfde31034c7896e0946be9017e70cc2def06658534c40",
+    "role": "Python package requirements."
+  },
+  {
+    "file": "CITATION.cff",
+    "source_uploaded_name": "CITATION.cff",
+    "sha256": "8b9e27cafba8e6cc076e92aa0bc1d91cdb1e18a1b9d9631b4c26f79b9908e87d",
+    "role": "Citation metadata for GitHub and Zenodo."
+  },
+  {
+    "file": "LICENSE",
+    "source_uploaded_name": "LICENSE",
+    "sha256": "7a3f091e248616a9c22eeea0137d1feaa6fa80239ea58c73fb5f9b652608d5fa",
+    "role": "BSD 3-Clause software license."
+  }
+]
